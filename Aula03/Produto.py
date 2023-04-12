@@ -1,13 +1,13 @@
 class Produto:
-    def __init__(self, name, preco, cat):
+    
+    def __init__(self, name, preco, categoria):
         self.id = None
         self.nome = name
         self.preco = preco
-        self.categoria = cat
-    
+        self.cat = categoria
+
     def imprimir(self):
+        print(" ---------------- ")
         print("Nome: ", self.nome)
         print("Preço: ", self.preco)
-        print("Categoria: ", self.categoria.nome )
-
-    
+        print("Categoria: ", self.cat.nome)
