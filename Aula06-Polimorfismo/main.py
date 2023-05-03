@@ -6,11 +6,11 @@ from Juridica import Juridica
 c1 = Cidade(1, "Porto Alegre")
 c2 = Cidade(2, "Capão da Canoa")
 
-p1 = Pessoa("Maria", "1122-3344", c1)
+p1 = Pessoa("Maria", "987654321", c1)
 pf1 = Fisica("João", "123456", c2, "000.222")
 
+#p1.imprimir()
 #pf1.imprimir()
-
-print(p1)
-print("----------------")
-print(pf1)
+print( p1 )
+print( "-------------" )
+print( pf1 )

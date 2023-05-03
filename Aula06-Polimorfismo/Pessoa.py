@@ -7,18 +7,16 @@ class Pessoa:
         self.fone = fone
         self.cidade = city
 
-    def __str__(self):
-        texto = "Nome: " + self.nome
-        texto += "\nFone: " + self.fone
-        texto += "\nCidade: " + self.cidade.nome
-        return texto
-    
-    
-    
     def imprimir(self):
         print(" ---------------- ")
         print("Nome: ", self.nome)
         print("Telefone: ", self.fone)
         print("Cidade: ", self.cidade.nome)
         
-    
+    def __str__(self):
+        texto = "Nome: " + self.nome
+        texto += "\nFone: " + self.fone
+        texto += "\nCidade: " + self.cidade.nome
+        return texto
+        
+

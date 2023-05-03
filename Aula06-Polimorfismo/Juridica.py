@@ -17,6 +17,7 @@ class Juridica(Pessoa):
         print("Empresa: ", self.nome)
         print("Fone: ", self.fone)
         print("Cidade: ", self.cidade.nome)
+#        super().imprimir()
         print("Qtd Funcionários: ", self.qtd_funcionarios)
         print("Funcionários: \n---------------------")
         if len( self.funcionarios ) > 0:
